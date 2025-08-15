@@ -1,0 +1,34 @@
+{
+  "name": "beefree-sdk-liquid-demo",
+  "version": "1.0.0",
+  "description": "A comprehensive demonstration of how to integrate Beefree SDK with Liquid templating for advanced email personalization",
+  "main": "proxy-server.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node proxy-server.js",
+    "start": "concurrently \"npm run server\" \"npm run dev\""
+  },
+  "keywords": ["beefree", "sdk", "liquid", "email", "personalization", "react"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@beefree.io/sdk": "^9.1.2-chore-title-max-level.0",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "concurrently": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0"
+  }
+}
